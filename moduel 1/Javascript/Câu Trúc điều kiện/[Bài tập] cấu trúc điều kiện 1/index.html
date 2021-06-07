@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 1: Nhập vào hai số a và b, và kiểm tra xem a có chia hết cho b hay không-->
+<script>
+     var a = parseInt(prompt("nhập số a"))
+     var b = parseInt(prompt("nhập số b"))
+     if (a%b==0){
+         alert("a chia hết cho b")
+
+     }else{
+         alert("a không chia hết cho b")
+     }
+</script>
+<!--Bài 2: Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.-->
+<script>
+    var age=parseInt(prompt("Nhập vào số tuổi"))
+    if (age>=15){
+        alert(" đủ tuổi lên lớp 10")
+    }else{
+        alert("không đủ tuổi lên lớp 10")
+    }
+</script>
+<!--Bài 3: Nhập một số nguyên bất kỳ và in kết quả ra màn hình để nói cho người dùng biết số đó là lớn hay nhỏ hơn 0-->
+<script>
+    var number = parseInt(prompt("Nhập vào số nguyên bất kì"))
+    if(number >=0){
+        alert("số này lớn hơn 0")
+    }else{
+        alert("số này nhỏ hơn 0")
+    }
+</script>
+<!--Bài 4: Nhập 3 số nguyên và tìm giá trị lớn nhất của ba số nguyên đó-->
+<script>
+    var e = parseInt(prompt("nhập vào số e"));
+    var f  =parseInt(prompt("nhập vào số f"));
+    var g= parseInt(prompt("nhập vào số g"));
+    if(e>f && e>g){
+        alert("số lớn nhất là"+ " " + e)
+    }else if(f>g){
+        alert("số lớn nhất là"+ " " + f)
+    }else{
+        alert("số lớn nhất là"+ " " + g)
+    }
+
+</script>
+<!--Bài 5: Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ-->
+<script>
+    var diem =parseFloat(prompt("Nhập vào số điểm"))
+    if(diem >= 8 ){
+        alert("Loại giỏi")
+
+    }else if(diem>=6.5){
+        alert("Loại  khá")
+    }else if (diem >=5){
+        alert("Loại trung bình")
+    }else if (diem>=3.5){
+        alert("Loại kém")
+    }else{
+        alert("Loại kém")
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 align="CENTER"> BẢNG CỬU CHƯƠNG</h1>
+<DIV ALIGN="CENTER">
+    <script>
+        var mul;
+        mul="<table border='1' width='1024' cellpadding='0' cellspacing='1'>"
+        for ( i = 1; i<=9; i ++) {
+            mul = mul + " <tr>"
+            for (j = 2; j <= 9; j++) {
+                mul = mul + "<td>" + j + "x" + i  + " = " + j*i + "</td>";
+            }
+            mul = mul+ "<tr>"
+        } mul= mul+ "<table>"
+        document.write(mul)
+    </script>
+</DIV>
+
+
+</body>
+</html>
